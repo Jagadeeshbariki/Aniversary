@@ -1,0 +1,110 @@
+body{
+    overflow-x: hidden;
+    border: 5px solid pink;
+   
+}
+
+.head p{
+    font-size: 500%;
+    font-weight: bolder;
+    background-image: url("https://media1.tenor.com/m/AFVizdevGNUAAAAC/heart-love.gif");
+    color: transparent;
+    background-clip: text;
+}
+
+.gallary img{
+    width: calc(33.33% - 20px);
+    max-width: 100%; 
+    aspect-ratio: 1/1;
+    /* height: auto; */
+    margin: 0;
+    border-radius: 20px;
+}
+.mr{
+    background-image: url("https://media1.tenor.com/m/m9mSiE5Sl_AAAAAC/happy-anniversary-wishes.gif");
+    background-size: contain;
+  }
+
+.ml{
+    background-image: url(" https://media.tenor.com/NkQoZlEYuz0AAAAi/happy-anniversary.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  main{
+    margin-top: 10px;
+    background-image: url("https://media1.tenor.com/m/G27P5mQXvY4AAAAC/love-gif-takking-hearts.gif");
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal img {
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    color: #FFF;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.modal-controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+  @media only screen and (max-width: 600px){
+
+    .head p{
+        font-size: 250%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .main{
+        width: 95%;
+       
+        border: 10px red solid;
+        border-radius: 10px;
+    }
+
+    .mr, .ml{
+        height: 150px;
+        width: 45%;
+        background-repeat: no-repeat;
+    }
+
+    .gallery img {
+        width: calc(50% - 20px); 
+    }
+
+  }
+
+
+  #foot{
+    text-align: center;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+  }
