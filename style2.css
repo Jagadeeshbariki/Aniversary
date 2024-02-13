@@ -69,6 +69,16 @@ body{
     text-align: center;
     margin-top: 20px;
 }
+body{
+    overflow-x: hidden;
+}
+
+#foot{
+    text-align: center;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+  }
 
   @media only screen and (max-width: 600px){
 
@@ -98,13 +108,12 @@ body{
     .gallery img {
         width: calc(50% - 20px); 
     }
+    #foot{
+        font-size: 15px;
+        color: red;
+    }
 
   }
 
 
-  #foot{
-    text-align: center;
-    margin: 10px;
-    color: white;
-    font-size: 30px;
-  }
+ 
